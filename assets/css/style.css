@@ -292,6 +292,187 @@ svg {
   margin: 1.5rem 0 1rem 0;
 }
 
+/* From Section (Mobile) */
+input,
+
+select {
+
+  width: 100%;
+
+  outline: none;
+
+  border: none;
+
+  font-family: 'Public Sans', sans-serif;
+
+  background-color: var(--light-gray-blue);
+
+  height: 40px;
+
+  padding-left: .5rem;
+
+  font-size: 1rem;
+
+  border-radius: 5px;
+
+}
+
+ 
+
+.padded, .padded-mob {
+
+  padding: 4rem 1.5rem;
+
+}
+
+ 
+
+.form__container {
+
+  display: block;
+
+}
+
+ 
+
+.form-bg {
+
+  position: relative;
+
+  top: 125px;
+
+  margin-bottom: 280px;
+
+}
+
+ 
+
+.form-bg::before {
+
+  content: "";
+
+  position: absolute;
+
+  background-image: url(../images/bg-invite-form-mobile.svg);
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  top: 40px;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 750px;
+
+  height: 400px;
+
+}
+
+ 
+
+.form-header h2 {
+
+  color: var(--white);
+
+  position: relative;
+
+  width: 350px;
+
+  margin: 0 auto;
+
+  font-weight: 200;
+
+  font-size: 2.5rem;
+
+  text-align: left;
+
+  transform: translateY(-20px);
+
+}
+
+ 
+
+.invite-form {
+
+  background-color: var(--white);
+
+  width: 100%;
+
+  padding: 1.5rem 1rem;
+
+  border-radius: 5px;
+
+}
+
+ 
+
+.form-group {
+
+  margin: 1.625rem 0;
+
+  width: 100%;
+
+}
+
+ 
+
+.form-group.marketing-select {
+
+  text-align: left;
+
+}
+
+ 
+
+.form-group.marketing-select select,
+
+.form-group.marketing-select label {
+
+  color: #757575;
+
+}
+
+ 
+
+.marketing-input {
+
+  margin-top: .5rem;
+
+}
+
+ 
+
+.form-callout {
+
+  margin-bottom: 2.25rem;
+
+}
+
+ 
+
+.form-callout p {
+
+  font-size: 1.5rem;
+
+  line-height: 32px;
+
+  letter-spacing: -0.36px;
+
+  font-weight: 300;
+
+}
+
+ 
+
+.submit-btn {
+
+  width: 100%;
+
+}
+
 /* Article Section */
 .article-section {
   background-color: var(--very-light-gray);
@@ -411,6 +592,138 @@ small {
 
   .cta-btn:hover:after {
     opacity: 0.3;
+  }
+
+  .padded-mob {
+
+    padding: 0;
+
+  }
+
+ 
+
+.padded {
+
+    padding: 6rem 10.313rem 5.875rem 10.313rem;
+
+  }
+
+ 
+
+.padded-right-lg {
+
+padding-right: 10.313rem
+
+}
+
+ 
+
+.form__container,
+
+  .invite-form {
+
+    display: flex;
+
+    gap: 1.5rem;
+
+  }
+
+  .form__container {
+
+    padding-bottom: 4rem;
+
+  }
+
+  .invite-form {
+
+    flex-flow: row wrap;
+
+  }
+
+  .form-header.form-bg h2 {
+
+  width: 75%;
+
+  margin: 0;
+
+  font-size: 3.5rem;
+
+  text-align: left;
+
+  font-size: 3.75vw;
+
+  transform: translate(40px, 75px);
+
+}
+
+  .form-callout {
+
+    margin-bottom: 1.688rem;
+
+  }
+
+  .form-callout p {
+
+    font-size: 2rem;
+
+    font-weight: 200;
+
+    line-height: 50px;
+
+  }
+
+  .form-group {
+
+    flex-basis: 100%;
+
+    margin: 0;
+
+  }
+
+  .form-group.marketing-select,
+
+  .form-group.submit-btn__wrapper {
+
+    flex-basis: 100%;
+
+  }
+
+  .form-bg {
+
+    top: 80px;
+
+  }
+
+  .form-bg::before {
+
+    position: absolute;
+
+    background-image: url(../images/bg-invite-form.svg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    transform: translate(-60%, -30%);
+
+    width: 1025px;
+
+    height: 600px;
+
+}
+
+  .form-header,
+
+  .form-wrapper {
+
+    flex-basis: 50%;
+
+  }
+
+  .form-wrapper {
+
+    padding-left: 5rem;
+
   }
 
   /* Navbar */
